@@ -1,0 +1,78 @@
+body {
+    background-color: #89a9f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    background-color: rgba(150, 80, 14, 0.28);
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #010006;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 60px;
+}
+
+.robot img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #1155cc;   /* outer ring */
+    background-color: #ffffff;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #234f81;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+h2 {
+    color: #1a5dab;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+p {
+    font-size: 14px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 12px;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+    width: 95%;
+    padding: 6px;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+ul, ol, dl {
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 20px auto 0 auto;
+    background-color: #1a5dab;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
